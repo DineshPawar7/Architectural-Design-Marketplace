@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Upload New Design</title>
+</head>
+<body>
+    <header>
+        <h1>Upload New Design</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="designs.html">Designs</a>
+        </nav>
+    </header>
+
+    <section id="upload-form">
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="design-name">Design Name:</label>
+            <input type="text" id="design-name" name="design-name" required>
+
+            <label for="design-description">Description:</label>
+            <textarea id="design-description" name="design-description" required></textarea>
+
+            <label for="design-price">Price:</label>
+            <input type="number" id="design-price" name="design-price" required>
+
+            <label for="design-image">Upload Image:</label>
+            <input type="file" id="design-image" name="design-image" required>
+
+            <button type="submit">Upload Design</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
