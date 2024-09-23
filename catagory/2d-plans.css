@@ -112,7 +112,20 @@ header {
 .btn-signup:hover {
     background-color: #ff5733;
 }
+.help-section {
+    font-size: 14px;
+    color: white;
+    margin-right: 40px;
+}
 
+.help-section a {
+    color: #fdcbff;
+    text-decoration: none;
+}
+
+.help-section a:hover {
+    text-decoration: underline;
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

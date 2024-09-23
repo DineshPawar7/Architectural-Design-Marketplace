@@ -96,17 +96,20 @@ header {
 .btn-signup:hover {
     background-color: #ff5733;
 }
-
-
-
-.section-divider {
-    border: none;
-    height: 3px;
-    background-color: #1c3341;
-    width: 90%;
-    margin: 50px 5%;
+.help-section {
+  font-size: 14px;
+  color: white;
+  margin-right: 40px;
 }
 
+.help-section a {
+  color: #fdcbff;
+  text-decoration: none;
+}
+
+.help-section a:hover {
+  text-decoration: underline;
+}
 .subscription-container {
     display: flex;
     justify-content: space-around;
